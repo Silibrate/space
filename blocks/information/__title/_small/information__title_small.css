@@ -2,6 +2,7 @@
   display: block;
   color: aliceblue;
   font-size: 25px;
+  font-weight: 500;
 }
 
 @media screen and (max-width:768px) {

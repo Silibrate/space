@@ -1,4 +1,4 @@
-.about__item{
+.about__item {
   color: aliceblue;
   cursor: pointer;
   display: flex;
@@ -6,30 +6,33 @@
   justify-content: center;
   align-items: center;
   background: transparent;
-	background-image: linear-gradient(to right bottom, rgba(0,0,0,0)60%, rgba(219, 219, 219, 0.1)100%);
-}
-.about__item:hover{
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0)50%, rgba(219, 219, 219, 0.2)90%);
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0)60%, rgba(219, 219, 219, 0.1)100%);
 }
 
-.about__item_two{
-  background-image: linear-gradient(to left bottom, rgba(0,0,0,0)60%, rgba(219, 219, 219, 0.1)100%);
-}
-.about__item_two:hover{
-  background-image: linear-gradient(to left bottom, rgba(0,0,0,0)50%, rgba(219, 219, 219, 0.2)90%);
+.about__item:hover {
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0)50%, rgba(219, 219, 219, 0.2)90%);
 }
 
-.about__item_three{
-  background-image: linear-gradient(to right top, rgba(0,0,0,0)60%, rgba(219, 219, 219, 0.1)100%);
-}
-.about__item_three:hover{
-  background-image: linear-gradient(to right top, rgba(0,0,0,0)50%, rgba(219, 219, 219, 0.2)90%);
+.about__item_two {
+  background-image: linear-gradient(to left bottom, rgba(0, 0, 0, 0)60%, rgba(219, 219, 219, 0.1)100%);
 }
 
-.about__item_four{
-  background-image: linear-gradient(to left top, rgba(0,0,0,0)60%, rgba(219, 219, 219, 0.1)100%);
+.about__item_two:hover {
+  background-image: linear-gradient(to left bottom, rgba(0, 0, 0, 0)50%, rgba(219, 219, 219, 0.2)90%);
 }
 
-.about__item_four:hover{
-  background-image: linear-gradient(to left top, rgba(0,0,0,0)50%, rgba(219, 219, 219, 0.2)90%);
+.about__item_three {
+  background-image: linear-gradient(to right top, rgba(0, 0, 0, 0)60%, rgba(219, 219, 219, 0.1)100%);
+}
+
+.about__item_three:hover {
+  background-image: linear-gradient(to right top, rgba(0, 0, 0, 0)50%, rgba(219, 219, 219, 0.2)90%);
+}
+
+.about__item_four {
+  background-image: linear-gradient(to left top, rgba(0, 0, 0, 0)60%, rgba(219, 219, 219, 0.1)100%);
+}
+
+.about__item_four:hover {
+  background-image: linear-gradient(to left top, rgba(0, 0, 0, 0)50%, rgba(219, 219, 219, 0.2)90%);
 }

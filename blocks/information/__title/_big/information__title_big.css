@@ -2,7 +2,7 @@
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 0, 0));
+  background-image: linear-gradient(to right, rgb(255, 255, 255)30%, rgb(255, 0, 0)90%);
   font-size: 62px;
   font-weight: 500;
   clip-path: polygon(100.00% 0.00%, 97.89% 21.25%, 95.18% 48.72%, 91.25% 100%, 0.00% 100.00%, 0% 60%, 0.00% 0.00%);
