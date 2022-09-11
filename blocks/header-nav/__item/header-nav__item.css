@@ -1,0 +1,24 @@
+.header-nav__item {
+  margin-right: 40px;
+}
+
+.header-nav__item:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width:1178px) {
+  .header-nav__item {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .header-nav__item {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .header-nav__item:last-child {
+    margin-bottom: 0;
+  }
+}
