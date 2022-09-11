@@ -1,0 +1,18 @@
+.information__title_gradient {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(248, 107, 107));
+}
+
+@media screen and (max-width:1024px) {
+  .information__title_gradient {
+    background-image: linear-gradient(to right, rgb(255, 255, 255)10%, rgb(249, 67, 67)40%);
+  }
+}
+
+@media screen and (max-width:548px) {
+  .information__title_gradient {
+    background-image: linear-gradient(to right, rgb(255, 255, 255)30%, rgb(255 117 0)50%);
+  }
+}

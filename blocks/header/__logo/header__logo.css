@@ -1,35 +1,42 @@
 .header__logo {
   position: relative;
-  padding: 50px 25px 50px 25px;
+  margin-left: 25px;
+  padding: 30px 25px 30px 25px;
   border-left: 1px solid #303033;
   border-right: 1px solid #303033;
 }
 
-.header__logo::after{
+.header__logo::after {
   content: '';
   position: absolute;
   width: 7px;
   height: 7px;
   border-left: 1px solid white;
   border-top: 1px solid white;
-  top:0;
+  top: 0;
   left: 0;
 }
 
-.header__logo::before{
+.header__logo::before {
   content: '';
   position: absolute;
   width: 7px;
   height: 7px;
   border-left: 1px solid white;
   border-top: 1px solid white;
-  bottom:0;
+  bottom: 0;
   right: 0;
   transform: rotate(180deg);
 }
 
 @media screen and (max-width:1178px) {
-  .header__logo{
+  .header__logo {
     padding: 25px 15px 25px 15px;
+  }
+}
+
+@media screen and (max-width: 824px) {
+  .header__logo {
+    margin-left: 10px;
   }
 }

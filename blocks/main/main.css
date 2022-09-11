@@ -1,0 +1,10 @@
+.main {
+  max-width: 1280px;
+  margin: auto;
+}
+
+@media screen and (max-width: 1118px) {
+  .main {
+    background: rgba(0, 0, 0, .3);
+  }
+}

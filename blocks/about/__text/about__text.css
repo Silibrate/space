@@ -1,0 +1,11 @@
+.about__text {
+  margin: 0;
+  margin-bottom: 20px;
+  color: rgb(151, 152, 152);
+}
+
+@media screen and (max-width: 548px) {
+  .about__text {
+    margin-bottom: 10px;
+  }
+}

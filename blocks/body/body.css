@@ -1,6 +1,8 @@
 .body {
   font-family: 'Inter';
-  background: url('../../images/mainBackgraund.png') center / cover no-repeat fixed;
+  background: url('../../images/mainBackgraund.png');
+  background-position: top;
+  background-repeat: no-repeat;
   width: 100%;
-  height: 100vh;
+  height: 100%;
 }

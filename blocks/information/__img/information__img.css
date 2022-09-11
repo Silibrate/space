@@ -1,0 +1,26 @@
+.information__img {
+  position: absolute;
+  top: 303px;
+  left: 212px;
+}
+
+@media screen and (max-width:1279px) {
+  .information__img {
+    display: none;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .information__img {
+    width: 287px;
+    display: block;
+    top: 303px;
+    left: 201px;
+  }
+}
+
+@media screen and (max-width:1023px) {
+  .information__img {
+    display: none;
+  }
+}

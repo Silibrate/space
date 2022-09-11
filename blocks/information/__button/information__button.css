@@ -1,0 +1,44 @@
+.information__button {
+  color: rgb(151, 152, 152);
+  padding: 10px 15px 10px 15px;
+  margin-top: 86px;
+  background: none;
+  position: relative;
+  border: 1px solid rgb(3, 105, 247);
+  border-image: linear-gradient(to right top, rgb(3, 105, 247), rgb(10, 10, 10), rgb(3, 105, 247));
+  border-image-slice: 1;
+}
+
+.information__button:hover {
+  transition: all 0.5s;
+  border-image: none;
+  color: white;
+}
+
+.information__button::after {
+  content: '';
+  bottom: -1px;
+  left: -1px;
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+}
+
+.information__button::before {
+  content: '';
+  top: -1px;
+  right: -1px;
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  border-top: 1px solid white;
+  border-right: 1px solid white;
+}
+
+@media screen and (max-width: 548px) {
+  .information__button {
+    margin-top: 30px;
+  }
+}

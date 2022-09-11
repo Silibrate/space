@@ -1,5 +1,6 @@
 @media screen and (max-width:768px) {
   .header-nav {
+    z-index: 3;
     position: fixed;
     top: 0;
     left: 0;
