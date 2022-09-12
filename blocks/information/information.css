@@ -3,13 +3,13 @@
   margin: auto;
   position: relative;
   display: flex;
-  padding: 93px 0 93px 0;
+  padding: 93px 0 166px 0;
   justify-content: space-between;
 }
 
-@media screen and (max-width:824px) {
+@media screen and (max-width:1024px) {
   .information {
-    width: calc(100% - 100px);
+    padding-bottom: 200px;
   }
 }
 
@@ -19,8 +19,21 @@
   }
 }
 
+@media screen and (max-width:820px) {
+  .information {
+    padding-bottom: 224px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .information {
+    padding-bottom: 248px;
+  }
+}
+
 @media screen and (max-width: 548px) {
   .information {
     flex-direction: column;
+    padding-bottom: 60px;
   }
 }

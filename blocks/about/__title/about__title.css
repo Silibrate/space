@@ -20,6 +20,9 @@
   .about__title {
     font-size: 42px;
   }
+  .about__title sub {
+    left: -0.7em;
+  }
 }
 
 @media screen and (max-width: 768px) {
